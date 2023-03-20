@@ -8,7 +8,6 @@ class GridBoxViewTestCase: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        isRecording = false
         systemUnderTest =  GridBoxView(frame: .init(origin: .zero, size: CGSize(width: 250, height: 200)))
         
     }
