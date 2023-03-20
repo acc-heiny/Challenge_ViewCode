@@ -2,13 +2,13 @@ import XCTest
 import SnapshotTesting
 @testable import DesafioViewCode
 
-class   ViewControllerTestCase: XCTestCase {
+class ViewControllerTestCase: XCTestCase {
     
     var systemUnderTest: ViewController!
     
     override func setUp() {
         super.setUp()
-        systemUnderTest =
+        systemUnderTest = ViewController()
         
     }
     
@@ -17,11 +17,11 @@ class   ViewControllerTestCase: XCTestCase {
         super.tearDown()
     }
     
-    func testComponentView() {
-        if let message = verifySnapshot(matching: systemUnderTest, as: .image, record: isRecording) {
-            XCTFail(message)
-            
-        }
+    func test_loadView_shouldHaveCorrectViewType() {
+        systemUnderTest.beginAppearanceTransition(true, animated: false)
+        systemUnderTest.endAppearanceTransition()
+        XCTAssertNotNil(systemUnderTest.customView.delegate)
+        XCTAssertTrue(systemUnderTest.view is CustomView )
+        
     }
 }
-

@@ -8,8 +8,7 @@ class CustomViewTestCase: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        systemUnderTest =  CustomView(frame: UIScreen.main.nativeBounds.size.width = 100)
-        
+        systemUnderTest = CustomView(frame: .init(origin: .zero, size: UIScreen.main.bounds.size))
     }
     
     override func tearDown() {
@@ -24,4 +23,3 @@ class CustomViewTestCase: XCTestCase {
         }
     }
 }
-

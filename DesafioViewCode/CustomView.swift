@@ -6,7 +6,7 @@ protocol CustomViewDelegate: AnyObject {
 }
 class CustomView: UIView {
     
-    weak var delegate: CustomViewDelegate?
+   weak var delegate: CustomViewDelegate?
     
     var firstBoxView = LandscapeGridBoxView()
     var middleBoxView = GridBoxView()
@@ -58,7 +58,7 @@ class CustomView: UIView {
     }
     
     @objc func didTapActionButton() {
-        delegate?.openGenericScreen() 
+        delegate?.openGenericScreen()
         
     }
 }

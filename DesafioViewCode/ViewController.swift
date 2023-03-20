@@ -2,7 +2,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    private let customView: CustomView = CustomView()
+    let customView: CustomView = CustomView()
     
     override func loadView() {
         customView.delegate = self

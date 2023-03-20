@@ -8,8 +8,7 @@ class LandscapeGridBoxViewTestCase: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        isRecording = true
-        systemUnderTest =  LandscapeGridBoxView(frame: .init(origin: .zero, size: .init(width: 700, height: 700)))
+        systemUnderTest =  LandscapeGridBoxView(frame: .init(origin: .zero, size: CGSize(width: 2500, height: 700)))
         
     }
     
