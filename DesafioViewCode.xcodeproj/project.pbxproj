@@ -12,6 +12,7 @@
 		F32BED4529B90F8D0037E033 /* CenterGridBoxViewTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32BED4429B90F8D0037E033 /* CenterGridBoxViewTestCase.swift */; };
 		F32BED4729BBB1890037E033 /* CustomViewTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32BED4629BBB1890037E033 /* CustomViewTestCase.swift */; };
 		F32BED4929BBB4E60037E033 /* ViewControllerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32BED4829BBB4E60037E033 /* ViewControllerTestCase.swift */; };
+		F33B7F7129C9F34500FEE00B /* CustomViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33B7F7029C9F34500FEE00B /* CustomViewSpy.swift */; };
 		F3FC8D6529B0F13A00877362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC8D6429B0F13A00877362 /* AppDelegate.swift */; };
 		F3FC8D6729B0F13A00877362 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC8D6629B0F13A00877362 /* SceneDelegate.swift */; };
 		F3FC8D6929B0F13A00877362 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC8D6829B0F13A00877362 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		F32BED4429B90F8D0037E033 /* CenterGridBoxViewTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterGridBoxViewTestCase.swift; sourceTree = "<group>"; };
 		F32BED4629BBB1890037E033 /* CustomViewTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewTestCase.swift; sourceTree = "<group>"; };
 		F32BED4829BBB4E60037E033 /* ViewControllerTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTestCase.swift; sourceTree = "<group>"; };
+		F33B7F7029C9F34500FEE00B /* CustomViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewSpy.swift; sourceTree = "<group>"; };
 		F3FC8D6129B0F13A00877362 /* DesafioViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioViewCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FC8D6429B0F13A00877362 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3FC8D6629B0F13A00877362 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F33B7F6F29C9F2FB00FEE00B /* Doubles */ = {
+			isa = PBXGroup;
+			children = (
+				F33B7F7029C9F34500FEE00B /* CustomViewSpy.swift */,
+			);
+			path = Doubles;
+			sourceTree = "<group>";
+		};
 		F3FC8D5829B0F13A00877362 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		F3FC8D6329B0F13A00877362 /* DesafioViewCode */ = {
 			isa = PBXGroup;
 			children = (
+				F33B7F6F29C9F2FB00FEE00B /* Doubles */,
 				F3FC8D7829B10DF300877362 /* CustomView.swift */,
 				F3FC8D9329B26CA200877362 /* LandscapeGridBoxView.swift */,
 				F3FC8D7F29B1378200877362 /* GridBoxView.swift */,
@@ -238,6 +249,7 @@
 				F3FC8D8029B1378200877362 /* GridBoxView.swift in Sources */,
 				F3FC8D6929B0F13A00877362 /* ViewController.swift in Sources */,
 				F3FC8D7929B10DF300877362 /* CustomView.swift in Sources */,
+				F33B7F7129C9F34500FEE00B /* CustomViewSpy.swift in Sources */,
 				F3FC8D6529B0F13A00877362 /* AppDelegate.swift in Sources */,
 				F3FC8D9429B26CA200877362 /* LandscapeGridBoxView.swift in Sources */,
 				F32BED4129B6305E0037E033 /* CenterGridBoxView.swift in Sources */,
