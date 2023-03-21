@@ -67,7 +67,7 @@ class CustomView: UIView {
 extension CustomView: ViewConfiguration {
     
     func buildViewHierarchy() {
-
+        
         addSubview(blueContainer)
         blueContainer.addSubview(firstBoxView)
         blueContainer.addSubview(gridContainer)
@@ -79,7 +79,7 @@ extension CustomView: ViewConfiguration {
     }
     
     func setupConstraints() {
-
+        
         blueContainer.snp.makeConstraints { make in
             make.left.equalToSuperview().offset(20)
             make.right.equalToSuperview().inset(20)
@@ -100,7 +100,7 @@ extension CustomView: ViewConfiguration {
             make.right.equalToSuperview().inset(20)
             make.height.equalTo(75.0)
             make.topMargin.equalToSuperview().inset(15)
-            
+    
         }
         
         centerBoxView.snp.makeConstraints { make in
