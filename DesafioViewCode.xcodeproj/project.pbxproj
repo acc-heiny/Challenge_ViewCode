@@ -19,7 +19,7 @@
 		F3FC8D6E29B0F13B00877362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FC8D6D29B0F13B00877362 /* Assets.xcassets */; };
 		F3FC8D7129B0F13B00877362 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FC8D6F29B0F13B00877362 /* LaunchScreen.storyboard */; };
 		F3FC8D7929B10DF300877362 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC8D7829B10DF300877362 /* CustomView.swift */; };
-		F3FC8D7B29B12EB600877362 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC8D7A29B12EB600877362 /* CodeView.swift */; };
+		F3FC8D7B29B12EB600877362 /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC8D7A29B12EB600877362 /* ViewConfiguration.swift */; };
 		F3FC8D7E29B12F0C00877362 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F3FC8D7D29B12F0C00877362 /* SnapKit */; };
 		F3FC8D8029B1378200877362 /* GridBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC8D7F29B1378200877362 /* GridBoxView.swift */; };
 		F3FC8D9029B210B200877362 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = F3FC8D8F29B210B200877362 /* SnapshotTesting */; };
@@ -52,7 +52,7 @@
 		F3FC8D7029B0F13B00877362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3FC8D7229B0F13B00877362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3FC8D7829B10DF300877362 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
-		F3FC8D7A29B12EB600877362 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		F3FC8D7A29B12EB600877362 /* ViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
 		F3FC8D7F29B1378200877362 /* GridBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxView.swift; sourceTree = "<group>"; };
 		F3FC8D8529B20FDF00877362 /* DesafioViewCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioViewCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FC8D9129B211DC00877362 /* GridBoxViewTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxViewTestCase.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 				F3FC8D9329B26CA200877362 /* LandscapeGridBoxView.swift */,
 				F3FC8D7F29B1378200877362 /* GridBoxView.swift */,
 				F32BED4029B6305E0037E033 /* CenterGridBoxView.swift */,
-				F3FC8D7A29B12EB600877362 /* CodeView.swift */,
+				F3FC8D7A29B12EB600877362 /* ViewConfiguration.swift */,
 				F3FC8D6829B0F13A00877362 /* ViewController.swift */,
 				F3FC8D6429B0F13A00877362 /* AppDelegate.swift */,
 				F3FC8D6629B0F13A00877362 /* SceneDelegate.swift */,
@@ -253,7 +253,7 @@
 				F3FC8D6529B0F13A00877362 /* AppDelegate.swift in Sources */,
 				F3FC8D9429B26CA200877362 /* LandscapeGridBoxView.swift in Sources */,
 				F32BED4129B6305E0037E033 /* CenterGridBoxView.swift in Sources */,
-				F3FC8D7B29B12EB600877362 /* CodeView.swift in Sources */,
+				F3FC8D7B29B12EB600877362 /* ViewConfiguration.swift in Sources */,
 				F3FC8D6729B0F13A00877362 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

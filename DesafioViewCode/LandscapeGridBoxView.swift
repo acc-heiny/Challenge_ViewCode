@@ -62,7 +62,6 @@ class LandscapeGridBoxView: UIView {
 extension LandscapeGridBoxView: ViewConfiguration {
 
     func buildViewHierarchy() {
-        
         addSubview(imageView)
         verticalStackView.addArrangedSubview(title)
         verticalStackView.addArrangedSubview(subTitle)
@@ -74,7 +73,6 @@ extension LandscapeGridBoxView: ViewConfiguration {
     }
 
     func setupConstraints() {
-        
         imageView.snp.makeConstraints { make in
             make.left.bottom.top.equalToSuperview()
             make.width.equalToSuperview().multipliedBy(0.28)

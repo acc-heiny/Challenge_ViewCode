@@ -21,7 +21,7 @@ class ViewControllerTestCase: XCTestCase {
         systemUnderTest.beginAppearanceTransition(true, animated: false)
         systemUnderTest.endAppearanceTransition()
         XCTAssertNotNil(systemUnderTest.customView.delegate)
-        XCTAssertTrue(systemUnderTest.view is CustomView )
+        XCTAssertTrue(systemUnderTest.view is CustomView)
         
     }
 }

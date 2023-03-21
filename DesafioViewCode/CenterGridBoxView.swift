@@ -27,12 +27,10 @@ class CenterGridBoxView: UIView {
 extension CenterGridBoxView : ViewConfiguration {
 
     func buildViewHierarchy() {
-
         addSubview(imageView)
     }
 
     func setupConstraints() {
-
         imageView.snp.makeConstraints { make in
             make.left.bottom.right.equalToSuperview()
             make.height.equalTo(50)
@@ -42,7 +40,6 @@ extension CenterGridBoxView : ViewConfiguration {
     }
 
     func setupConfiguration() {
-
         backgroundColor = .black
         layer.cornerRadius = 10
 
