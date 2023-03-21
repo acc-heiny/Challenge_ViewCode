@@ -116,7 +116,7 @@ extension CustomView: ViewConfiguration {
         button.heightAnchor.constraint(equalToConstant: 35).isActive = true
         button.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -35).isActive = true
         
-       }
+    }
     
     func setupConfiguration() {
         backgroundColor = .darkGray
