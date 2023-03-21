@@ -8,7 +8,7 @@ class GridBoxViewTestCase: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        systemUnderTest =  GridBoxView(frame: .init(origin: .zero, size: CGSize(width: 250, height: 200)))
+        systemUnderTest =  GridBoxView(frame: .init(origin: .zero, size: CGSize(width: (UIScreen.main.bounds.size.width - 160) / 3, height: 130)))
         
     }
     
@@ -17,7 +17,7 @@ class GridBoxViewTestCase: XCTestCase {
         super.tearDown()
     }
     
-    func testComponentView() {
+    func test_gridBoxView_shouldHaveExpectedlayout () {
         if let message = verifySnapshot(matching: systemUnderTest, as: .image, record: isRecording) {
             XCTFail(message)
             

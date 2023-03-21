@@ -14,7 +14,7 @@ class CustomView: UIView {
     var rightBoxView = GridBoxView()
     var centerBoxView = CenterGridBoxView()
     
-    lazy var purpleContainer: UIView = {
+    lazy var blueContainer: UIView = {
         let view = UIView(frame: .zero)
         view.backgroundColor = .blue
         view.layer.cornerRadius = 10
@@ -67,19 +67,19 @@ extension CustomView: ViewConfiguration {
 
     func buildViewHierarchy() {
 
-        addSubview(purpleContainer)
-        purpleContainer.addSubview(firstBoxView)
-        purpleContainer.addSubview(gridContainer)
+        addSubview(blueContainer)
+        blueContainer.addSubview(firstBoxView)
+        blueContainer.addSubview(gridContainer)
         gridContainer.addArrangedSubview(leftBoxView)
         gridContainer.addArrangedSubview(middleBoxView)
         gridContainer.addArrangedSubview(rightBoxView)
-        purpleContainer.addSubview(centerBoxView)
+        blueContainer.addSubview(centerBoxView)
         addSubview(button)
     }
 
     func setupConstraints() {
 
-        purpleContainer.snp.makeConstraints { make in
+        blueContainer.snp.makeConstraints { make in
             make.left.equalToSuperview().offset(20)
             make.right.equalToSuperview().inset(20)
             make.top.equalTo(self.snp.topMargin)

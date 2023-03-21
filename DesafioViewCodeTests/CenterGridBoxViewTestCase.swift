@@ -9,7 +9,6 @@ class CenterGridBoxViewTestCase: XCTestCase {
     override func setUp() {
         super.setUp()
         systemUnderTest =  CenterGridBoxView(frame: .init(origin: .zero, size: .init(width: 50, height: 50)))
-        
     }
     
     override func tearDown() {
@@ -17,7 +16,7 @@ class CenterGridBoxViewTestCase: XCTestCase {
         super.tearDown()
     }
     
-    func testComponentView() {
+    func test_centerGridBoxView_shouldHaveExpectedlayout() {
         if let message = verifySnapshot(matching: systemUnderTest, as: .image, record: isRecording) {
             XCTFail(message)
             
